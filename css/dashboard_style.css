@@ -1,0 +1,204 @@
+    /* Header */
+#header{
+    position: sticky;
+    background-color: white;
+    border-bottom: 1px solid #8f8f8f;
+    top: 0;
+    z-index: 100;
+}
+.navbar{
+    background-color: white;
+}
+.header-mainBox .nav-link{
+    color: black;
+}
+.header-mainBox .nav-link:hover{
+    border-bottom: 10px solid #257886;
+}
+.header-alt{
+    margin: 10px 0 10px 0;
+}
+.header-altBox{
+    border: 1px solid #8f8f8f;
+}
+.header-alt .nav-item{
+    margin: 5px;
+    background-color: #B0B0B0;
+    border-radius: 18px;
+}
+.header-alt .student-link:hover{
+    background-color: #257886;
+    border-radius: 18px;
+}
+.header-alt .institution-link:hover{
+    background-color: #257886;
+    border-radius: 18px;
+}
+.header-alt .nav-link{
+    font-size: 15px;
+    color: black;
+}
+.header-mainBox .active{
+    font-weight: bold;
+    border-bottom: 10px solid #939393;
+}
+    /* End Header */
+
+    /* Slideshow */
+/*Slideshow for index.html*/
+#slideshow{
+    background-color: #E2E2D3;
+}
+.carousel{
+    width: 100%;
+}
+
+/* Slideshow for guide.html */
+#slideshow .logo {
+    margin-top: 40px;
+}
+.slideshow-guide-h5{
+    color: #257886;
+    font-size: 40px;
+}
+.slideshow-guide-h5 h5{
+    font-size: 40px; 
+}
+.slideshow-guide-p{
+    width: 80%;
+    margin: auto;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.slideshow-guide-p p{
+    margin: auto;
+}
+    /* End Slideshow */
+
+    /* Content */
+/* Content for index.html */
+#content{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+div.content-programme{
+    border: 1px solid black;
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px 20px 0 20px;
+}
+.card{
+    border: 1px solid black;
+}
+.card-footer{
+    background-color: #B0B0B0;
+    border-top: 1px solid black;
+}
+.programmeUpload{
+    font-size: 10px;
+}
+.programmeLink{
+    margin-left: 70%;
+}
+div.content-announcement{
+    border: 1px solid black;
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px 10px 0 10px;
+}
+div.content-announcement span{
+    font-weight: bold;
+}
+.news{
+    border: 1px solid black;
+    background-color: #B0B0B0;
+}
+.news h5{
+    font-size: 15px;
+    color: white;
+    padding: 5px 0 0 0;
+}
+
+/* Content for guide.html */
+.content-guide-card{
+    width: 80%;
+}
+.guide-content-title{
+    color: #257886;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.guide-content-pdflink li{
+    font-size: 25px;
+}
+.guide-content-note{
+    font-size: 15px;
+}
+.guide-content-noteBold{
+    font-size: 18px;
+    font-weight: bold;
+}
+    /* End Content */
+
+    /* Footer */
+#footer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+} 
+#footer .col-link{
+    padding-top: 40px;
+}
+#footer h5{
+    font-weight: bold;
+}
+#footerColor{
+    background-color: #C4C4C4;
+}
+.socialMedia{
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    background-color: #364A58;
+    border-radius: 8px;
+    padding: auto;
+}
+.socialMedia img{
+    height: 20px;
+    width: 20px;
+}
+#socialMediaBox{
+    justify-content: center;
+}
+#infoFooter{
+    text-align: center;
+}
+#infoFooter h5{
+    font-size: 13px;
+}
+#infoFooter p{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.infoFooterImg{
+    height: 70px;
+    width: 70px;
+}
+#infoFooterImg{
+    justify-content: center;
+}
+.infoFooterBold{
+    justify-content: center;
+}
+#teamFooter{
+    justify-content: center;
+    background-color: #364A58;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#teamFooter h5{
+    font-size: 15px;
+}
+    /* End Footer */

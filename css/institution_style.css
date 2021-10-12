@@ -1,0 +1,181 @@
+    /* Header */
+    #header{
+        position: sticky;
+        background-color: white;
+        border-bottom: 1px solid #8f8f8f;
+        top: 0;
+        z-index: 100;
+    }
+    .navbar{
+        background-color: white;
+    }
+    .header-mainBox .nav-link{
+        color: black;
+    }
+    .header-mainBox .nav-link:hover{
+        background-color: #257886;
+        border-radius: 10px;
+    }
+    .header-mainBox .active{
+        font-weight: bold;
+        background-color: #C4C4C4;
+        border-radius: 10px;
+    }
+    .userProfile{
+        height: 50px;
+        /* width: 50px; */
+        margin: 0 auto 0 0;
+    }
+    .header-altBox{
+        /* padding: 0 auto 0 0; */
+        border: 2px solid blue;
+    }
+        /* End Header */
+    
+        /* Content */
+    .content-institution {
+        height: 300px;
+        margin: 50px 0 50px 0;
+    }
+    .content-institution h5{
+        font-size: 35px;
+    }
+        /* For institution_livechat.html */
+    .chat-container {
+        max-width: 1100px;
+        background: #fff;
+        margin: 30px auto;
+        overflow: hidden;
+        border: 2px solid #8f8f8f;
+    }
+    .chat-header {
+        background-color: #8f8f8f;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid #8f8f8f;
+    } 
+    .chat-header #leave-btn {
+        background-color: #fff;
+    }
+    .chat-header #leave-btn:hover {
+        background-color: #068399;
+    }
+    .chat-main {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    .chat-sidebar {
+        background-color: #e2e2e2;;
+        padding: 20px 20px 60px;
+        overflow-y: scroll;
+        height: 500px;
+        border-right: 2px solid #8f8f8f;
+    }
+    .chat-sidebar h2 {
+        font-size: 20px;
+        background: rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .chat-sidebar h3 {
+        margin-bottom: 15px;
+    }
+    .chat-sidebar ul li {
+        padding: 10px 0;
+    }
+    .chat-messages {
+        padding: 30px;
+        max-height: 500px;
+        overflow-y: scroll;
+    }
+    .chat-messages .message {
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        overflow-wrap: break-word;
+        border: 1px solid #c4c4c4;
+        background-color: #e2e2e2;
+    }
+    .chat-messages .message .meta {
+        font-size: 15px;
+        font-weight: bold;
+        opacity: 0.7;
+        margin-bottom: 7px;
+    }
+    .chat-messages .message .meta span {
+        color: #777;
+    }  
+    .chat-form-container {
+        background-color: #8f8f8f;
+        padding: 20px 30px;
+        border-top: 2px solid #8f8f8f;
+    }
+    .chat-form-container form {
+        display: flex;
+    } 
+    .chat-form-container input[type='text'] {
+        font-size: 16px;
+        padding: 5px;
+        height: 40px;
+        flex: 1;
+    }
+        /* Content for institution_JoinChatRoom.html */
+    .join-container {
+        max-width: 500px;
+        margin: 150px auto;
+        border: 2px solid #8f8f8f;
+    }
+    .join-header {
+        text-align: center;
+        padding: 20px;
+        background-color: #8f8f8f;
+        margin-bottom: 20px;
+    }
+    .join-main .form-control {
+        margin-bottom: 20px;
+    }
+    .join-main label {
+        margin-bottom: 5px;
+        margin-left: 15px;
+        font-weight: 15px;
+    }
+    .join-main input[type='text'] {
+        font-size: 16px;
+        padding: 5px;
+        height: 40px;
+        width: 100%;
+    }
+    .join-main select {
+        font-size: 16px;
+        padding: 5px;
+        height: 40px;
+        width: 100%;
+    }
+    .join-main .btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .join-main .btn:hover {
+        margin-top: 20px;
+        width: 100%;
+        background-color: #257886;
+    }
+        /* End Content */
+    
+        /* Footer */
+    #teamFooter{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        justify-content: center;
+        background-color: #364A58;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #teamFooter h5{
+        font-size: 15px;
+    }
+    /* End Footer */

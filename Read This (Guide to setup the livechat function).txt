@@ -1,0 +1,16 @@
+======================================================================
+	SETUP and installation for livechat
+======================================================================
+open terminal inside VSCODE and type this:
+
+1) npm install
+(if npm does not exist, then download node.js package in https://nodejs.org/en/download/)
+
+======================================================================
+	How to start the livechat
+======================================================================
+on the same terminal, type in: 
+
+1) npm run dev
+
+2) open a liveserver of "index.html" using the VSCODE's Live Server extension
